@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("zlsafe", "for zlsafe support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("zlsafe", "enable zlsafe support", "no");
+
+if (PHP_ZLSAFE != "no") {
+	EXTENSION("zlsafe", "zlsafe.c", PHP_EXTNAME_SHARED, "/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1");
+}
+

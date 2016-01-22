@@ -1,0 +1,51 @@
+{$header;}
+
+
+<!-- Content START -->
+<div id="Content">
+
+<!-- Side ContentWrapper START -->
+<div id="ContentWrapper">
+
+<!-- Side SC START -->
+<div class="SC">
+
+<div class="Post" style="padding-bottom: 50px;">
+
+<div class="PostHead">
+ <?php foreach($head_list as $list){
+ 
+ 
+ }?>
+</div>
+  
+<div class="PostContent">
+<p>{$test;}</p>
+<label name="test">
+{literal;}
+//注释请用literal标签
+以下代码仅使用kyphp自带标签解释，smarty无效
+{$this->url->link('info/view' ,"&id={$value.id;}");}
+smary应替换为
+<kyphp>$this->url->link('info/view' ,"&id={$value.id;}")</kyphp>
+{/literal;}
+{foreach from=$form_list item=value key=key;}
+  
+<p><a href="<kyphp>$this->url->link('info/view' ,"&id={$value.id;}")</kyphp>">{$value.title;}</a></p>
+<p>{$value.content;}</p>
+{/foreach;}
+<pre></pre>
+ </div>
+ 
+<ul class="PostCom">
+ <li><span>Comments Off</span></li>
+</ul>
+<div>{$pagination;}</div>
+</div>
+<!-- Post END -->
+
+{$right;}
+</div>
+<!-- Content END -->
+ 
+{$footer;}
