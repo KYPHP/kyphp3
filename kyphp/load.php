@@ -20,7 +20,16 @@ if(!defined('__CHARSET__')){
 } 
 if(!defined('KYPHP_PATH'))die('const KYPHP_PATH not defined');
 define('KY_PATH',KYPHP_PATH);
-require KYPHP_PATH.'/function/cmd.php';
+if(phpversion()<'5.3.0')
+{
+	require KYPHP_PATH.'/function/cmd5.2.php';
+	require_once(KYPHP_PATH.'/kyphp_extras/Html5.2.php');
+}
+else
+{
+	require KYPHP_PATH.'/function/cmd.php';
+	require_once(KYPHP_PATH.'/kyphp_extras/Html.php');
+}
 require KYPHP_PATH.'/function/message.php';
 require KYPHP_PATH.'/kyphp_driver/front.php';
 require KYPHP_PATH.'/kyphp_driver/Action.php';
@@ -44,7 +53,7 @@ require_once(KYPHP_PATH.'/kyphp_extras/runtime.php');
 require_once(KYPHP_PATH.'/kyphp_extras/Session.php');
 require_once(KYPHP_PATH.'/kyphp_extras/templete.php');
 require_once(KYPHP_PATH.'/kyphp_extras/Url.php');
-require_once(KYPHP_PATH.'/kyphp_extras/Html.php');
+
 spl_autoload_register("__autoload");
 
 ?>

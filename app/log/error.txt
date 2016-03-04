@@ -1,0 +1,12 @@
+2016-03-04 14:32:05 - 警告:mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (10061) at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:20
+2016-03-04 14:32:05 - 通知:Error: Could not make a database link (2003) Can't connect to MySQL server on '127.0.0.1' (10061) at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:23
+2016-03-04 14:32:05 - 警告:mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:26
+2016-03-04 14:32:05 - 警告:mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:27
+2016-03-04 14:32:05 - 警告:mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:28
+2016-03-04 14:32:05 - 警告:mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:29
+2016-03-04 14:32:06 - 警告:mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (10061) at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:20
+2016-03-04 14:32:06 - 通知:Error: Could not make a database link (2003) Can't connect to MySQL server on '127.0.0.1' (10061) at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:23
+2016-03-04 14:32:06 - 警告:mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:26
+2016-03-04 14:32:06 - 警告:mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:27
+2016-03-04 14:32:06 - 警告:mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:28
+2016-03-04 14:32:06 - 警告:mysqli::query() [<a href='mysqli.query'>mysqli.query</a>]: Couldn't fetch mysqli at:E:\www\kyphp3\kyphp\kyphp_extras\db\ky_mysqli.php line:29

@@ -1,0 +1,2 @@
+2016-03-04 14:37:07 - 通知:Undefined index:  password at:E:\www\kyphp3\example_utf8\manage\controller\public.class.php line:43
+2016-03-04 14:37:27 - 通知:Undefined index:  password at:E:\www\kyphp3\example_utf8\manage\controller\public.class.php line:43

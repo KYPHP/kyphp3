@@ -31,7 +31,7 @@ class publicAction extends Action {
 	}
 	$userarr=$user->where("username='admin'")->order("id desc")->limit('0,10')->select();
 	$userarr1=$user->where("username='".$_POST['username']."'")->find();
-	
+	 if(empty($userarr1)) $this->error('用户名不对','');
 	 if($_POST['password']==''||$_POST['username']==''||$_POST['ver']==''){
 	    $this->error('请您认真填写！','');
 	 }
